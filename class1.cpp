@@ -1,6 +1,9 @@
 #include <iostream>
 
-main() {
+int main()
+{
+    const char* c = "hola";
+    std::cout << c << std::endl;
     
     return 0;
 }
